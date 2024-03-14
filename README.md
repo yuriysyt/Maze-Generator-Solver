@@ -6,6 +6,8 @@ This repository contains Python scripts for maze generation and solving. The `ge
 
 ## Maze Generator (`generator.py`)
 
+![Generator Picture](https://github.com/yuriysyt/Maze-Generator-Solver/raw/main/readme_images/Generator.png)
+
 ### Usage
 
 1. **Install Dependencies:**
@@ -21,6 +23,8 @@ This repository contains Python scripts for maze generation and solving. The `ge
 3. Follow on-screen instructions to watch the maze being generated.
 
 ## Maze Solver (`solver.py`)
+
+![Generator Picture](https://github.com/yuriysyt/Maze-Generator-Solver/raw/main/readme_images/Solver.png)
 
 Once the maze has been generated, the solver.py script takes on the challenge of finding the shortest path from the starting point to the exit. Using Dijkstra's algorithm, it intelligently navigates through the maze's corridors, determining the most efficient route. The solver's final output is the discovered shortest path, providing a clear solution to the maze's intricate layout.
 

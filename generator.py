@@ -56,12 +56,9 @@ class MazeGenerator:
         stack = [(self.agent_x, self.agent_y)]
         
         while running:
-            try: 
-                for event in pygame.event.get():
-                    if event.type == pygame.QUIT:
-                        running = False
-            except:
-                print('Goodbye! ')
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    running = False
             
             #Clear the screen
             self.screen.fill(COLOR_WHITE)
@@ -114,7 +111,8 @@ class MazeGenerator:
                 end = (self.exit_x, self.exit_y)  
             else:
                 print('end')
-                end = (self.exit_x, self.exit_y)       
+                end = (self.exit_x, self.exit_y)   
+                running = False    
                 MazeSolver().solve(self.maze, end)
 
 if __name__ == "__main__":
