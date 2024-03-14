@@ -8,6 +8,8 @@ This repository contains Python scripts for maze generation and solving. The `ge
 
 ![Generator Picture](https://github.com/yuriysyt/Maze-Generator-Solver/raw/main/readme_images/Generator.png)
 
+Creates mazes using a simple algorithm. It employs a depth-first search technique to generate a maze layout, starting from a designated entrance point and ending at a defined exit. As the script executes, it visualizes the maze generation process using the Pygame library, creating a graphical representation of the maze as it progresses. The generated maze consists of pathways and walls, forming a complex network of corridors. Once the maze generation is complete, the resulting maze can be explored interactively or utilized for various purposes, such as gaming or algorithm testing.
+
 ### Usage
 
 1. **Install Dependencies:**
